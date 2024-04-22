@@ -1,1 +1,1 @@
-console.log("Hello Pramukh");
+alert("Hii How are you?");
