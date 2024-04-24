@@ -414,7 +414,7 @@ section{
 
     /* media Main image */
     .firstSection{
-        padding-top: 20px;
+        margin-top: 20px;
         width: 100%;
         height: 50vh;
         background-color: rgb(236, 236, 89);
