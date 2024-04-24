@@ -2,6 +2,9 @@
     margin:0px;
     padding:0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: rgb(237, 203, 158);
@@ -73,18 +76,12 @@ body{
 
 .btn-sml{
     margin-right: 10%;
-    border-radius:10%;
-}
-
-#search{
-    border-radius:10%;
 }
 
 .login-btn{
     background-color: rgb(116, 2, 111);
     color: white;
     width: 20%;
-    border-radius: 30%;
     height: 30px;
 }
 
@@ -96,6 +93,19 @@ body{
     background: rgba(0,0,0,0.7);
     background-size: cover;
     background-blend-mode: darken;
+}
+
+.burger{
+    position: absolute;
+    right: 10px;
+    top:19px;
+    display: none;
+}
+.line{
+    width: 33px;
+    height: 3px;
+    margin: 5px 5px;
+    background-color: white;
 }
 /* main look  */
 .firstSection{
@@ -348,9 +358,116 @@ section{
 
 /* media query */
 
-@media only screen and(max-width:930px) {
-    .flex{
-        flex-wrap: wrap;
+@media only screen and (max-width: 950px) {
+    *{
+        margin: 0px;
+        padding: 0px;
     }
+    html{
+        scroll-behavior: smooth;
+    }
+    /* media Header */
+    .header img{
+        display: none;
+    }
+    /* media navbar */
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        height: 500px;
+        transition: all 0.7s ease-out;
+    }
+    .leftnav{
+        display: flex;
+        flex-direction: column;
+    }
+    .rightnav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: none;
+        padding: none;
+    }
+    .btn-sml{
+        margin: 0%;
+        width: 50%;
+    }
+    #search{
+        width: 60%;
+        margin-bottom: 5px;
+    }
+    .login-btn{
+        width: 50%;
+        margin-top: 10px;
+        height: 30px;
+        border-radius: 20%;
+    }
+
+    /* burger */
+    .burger{
+        display: block;
+    }
+    .h-nav{
+        height: 72px;
+    }
+    .v-class{
+        opacity: 0;
+    }
+
+    /* Main image */
+    .firstSection{
+        width: 100%;
+        height: 40vh;
+        background-color: rgb(236, 236, 89);
+        p{
+            color: black;
+            font-size: larger;
+            font-weight: bolder;
+        }
+    }
+    .mainBox{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .sec1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .second-half img{
+        width: 100px;
+        margin-bottom: 30px;
+    }
+
+    /* media section 1*/
+
+
+
+    /* media section 2 */
+    .flex{
+        display: inline-block;
+    }
+    .boxname{
+        width: 225px;
+    }
+    .more{
+        margin-left: 26%;
+    }
+
+    /* media footer */
+    .content-logo img{
+        height: 100px;
+    }
+
+    .footer2-right{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10%;
+    }
+    .footer3 input{
+        width: 60%;
+    }
+    
 }
 
