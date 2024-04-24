@@ -240,23 +240,21 @@ section{
     margin-bottom: 5px;
 }
 
-.more{
+#more{
     width: 225px;
     height: 260px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: whitesmoke;
+    margin: auto;
 }
 
 
-.more a{
+#more a{
     text-decoration: none;
     color: black;
     
 }
 
-.more{
+#more{
     a:hover{
         text-decoration: underline;
         color: blue;
@@ -452,7 +450,7 @@ section{
         width: 225px;
     }
     .more{
-        margin-left: 33.5%;
+        align-content: center;
     }
 
     /* media footer */
