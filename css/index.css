@@ -81,7 +81,7 @@ body{
 .login-btn{
     background-color: rgb(116, 2, 111);
     color: white;
-    width: 20%;
+    width: 100%;
     height: 30px;
 }
 
@@ -441,8 +441,12 @@ section{
     }
 
     /* media section 1*/
-
-
+    .sec1img{
+        width: 98%;
+    }
+    .sec1cont{
+        width: 95%;
+    }
 
     /* media section 2 */
     .flex{
