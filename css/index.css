@@ -460,6 +460,9 @@ section{
     .content-logo img{
         height: 100px;
     }
+    .footer1-social{
+        margin: auto;
+    }
 
     .footer2-right{
         display: flex;
