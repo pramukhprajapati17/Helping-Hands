@@ -90,8 +90,8 @@ body{
 }
 
 .background{
-    background: rgba(0,0,0,0.7);
-    background-size: cover;
+    background-image: url("../img/Mianimage.jpg");
+    background-size:cover;
     background-blend-mode: darken;
 }
 
@@ -109,36 +109,7 @@ body{
 }
 /* main look  */
 .firstSection{
-    height: 83vh;
-}
-
-.mainBox{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    max-width: 50%;
-    height: 80%;
-}
-
-.firsthalf{
-    width: 60%;
-    display: flex;
-    flex-direction: column;
-}
-
-.head{
-    color: white;
-    text-align: justify;
-}
-
-.second-half{
-    img{
-        border-radius: 25%;
-        width:80%;
-        display:block;
-        margin:auto;
-    }
+    height: 100vh;
 }
 
 /* Content starts */
@@ -185,7 +156,7 @@ body{
 
 /* Section 2 */
 section{
-    background-color: aquamarine;
+    background-color: rgb(221, 181, 218);
 }
 .section2{
     width:100%;
@@ -299,7 +270,7 @@ section{
 }
 
 .footer2{
-    background-color: rgb(183, 121, 180);
+    background-color: rgb(221, 181, 218);
     display: flex;
     justify-content: center;
     width:100%;
@@ -334,7 +305,7 @@ section{
 }
 
 .footer3{
-    background-color: rgb(183, 121, 180);
+    background-color: rgb(221, 181, 218);
     display: flex;
     justify-content: center;
     height: 50px;
