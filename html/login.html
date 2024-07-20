@@ -4,10 +4,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Workers Store</title>
-    <link rel="icon" type="image/x-icon" href="./img/logo.jpeg">
-    <link rel="stylesheet" href="./css/login.css">
+    <link rel="icon" type="image/x-icon" href="../img/logo.jpeg">
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
-    
+    <section class="mainBox">
+        <div class="loginCont">
+            <a href="../index.html"><img src="../img/logo.jpeg" alt="logo"/></a>
+        </div>
+        <div class="signUp">
+            <h1>SignUp</h1>
+            <h1>Login</h1>
+        </div>
+        
+            <form class="signupForm">
+                <label for="firstName">First Name*</label>
+                    <input type="text" required>
+                <label for="lastName">Last Name*</label>
+                    <input type="text" required>
+                <label for="phoneNo">Mobile No.*</label>
+                    <input type="tel" required>
+                <label for="phoneNo">Phone No.</label>
+                    <input type="tel">
+                <label for="email">E - mail</label>
+                    <input type="email">
+                <label for="work">Work</label>
+                    <select name="Work">
+                        <option value="Electrician">Electrician</option>
+                        <option value="Cook">Cook</option>
+                        <option value="Plumber">Plumber</option>
+                        <option value="Carpainter">Carpainter</option>
+                        <option value="Gardener">Gardener</option>
+                        <option value="DJ">DJ</option>
+                    </select>
+                <label for="place">Place</label>
+                    <select name="Place" required>
+                        <option value="Kapadwanj">Kapadwanj</option>
+                        <option value="Nadiad">Nadiad</option>
+                        <option value="Anand">Anand</option>
+                    </select>
+                
+                <label for="idProof">Goverment ID Proof</label>
+                    <input type="file" required/> 
+                <label for="time">Available Time:</label>
+                <label for="to">From</label>
+                    <input type="time" required>
+                <label for="to">To</label>
+                    <input type="time" required>
+
+
+                <button><submit>SignUp</submit></button>
+            </form>
+        </form>
+    </section>
 </body>
 </html>

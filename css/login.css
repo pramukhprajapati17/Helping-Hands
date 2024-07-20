@@ -3,3 +3,64 @@
     margin: 0;
     padding: 0;
 }
+body{
+    width: 100%;
+    background-color: rgb(237, 203, 158);
+}
+
+.mainBox{
+    width: 40%;
+    margin: auto;
+    background-color: rgb(232, 232, 232);
+}
+.loginCont{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(116, 2, 111);
+}
+.loginCont img{
+    height: 100px;
+    border-radius: 50%;
+    border: 3px solid wheat;
+}
+
+.signUp{
+    display: flex;
+    justify-content: center;
+    background-color:rgb(46, 195, 155);
+}
+
+.signUp h1{
+    width: 50%;
+    text-align: center;
+    text-decoration: none;
+}
+.signUp h1:hover{
+    background-color: yellow;
+    transition: slower;
+}
+
+
+.signupForm {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1.5rem;
+    align-items: center;
+}
+
+
+.signupForm input{
+    height: 2rem;
+    font-size: x-large;
+    border-radius: 100px 100px 100px 100px;
+    padding-left: 1.5rem;
+    width: 80%;
+}
+
+
+
+
+
+
